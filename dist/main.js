@@ -1,1 +1,1 @@
-alert("hello world");
+(()=>{"use strict";const e=document.querySelector("#content"),n=document.querySelector("#content"),t=document.querySelector("#content"),c=document.querySelector("#home"),o=document.querySelector("#menu"),r=document.querySelector("#about");c.addEventListener("click",(()=>{t.innerHTML="\n    <h1>Home</h1>\n    <h2>Some Text</h2>\n    "})),o.addEventListener("click",(()=>{e.innerHTML="\n    <h1>Menu</h1>\n    "})),r.addEventListener("click",(()=>{n.innerHTML="\n    <h1>About</h1>\n    "}))})();
