@@ -5,7 +5,11 @@ import { displayAbout } from './about.js'
 
 const header = (() => {
     const headerDiv = document.querySelector('header')
-    headerDiv.textContent = 'Header'
+    const newH1 = document.createElement('h1')
+    newH1.textContent = 'Hearth & Stone'
+    newH1.classList.add('logo')
+    headerDiv.appendChild(newH1)
+    
 })()
 
 const nav = (() => {
@@ -19,4 +23,4 @@ const nav = (() => {
     })
 })()
 
-displayHome()
+displayMenu()
