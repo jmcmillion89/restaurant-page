@@ -108,6 +108,10 @@ nav button:hover {
   box-shadow:
     0 4px 8px rgba(43, 43, 43, 0.10),
     0 10px 20px rgba(43, 43, 43, 0.08);
+
+    h3 {
+        color: var(--color-warm-clay);
+    }
 }
 
 .card img {
