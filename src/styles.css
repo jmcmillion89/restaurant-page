@@ -149,6 +149,7 @@ nav button:hover {
     font-size: 3rem;
 }
 .home h3 {
+    color: var(--color-warm-clay);
     font-size: 1rem;
     margin-top: -1rem;
     font-style: italic;
