@@ -132,6 +132,32 @@ nav button:hover {
     font-weight: 600;
 }
 
+.home, .about {
+    display: flex;
+    background-color: var(--color-soft-ash);
+    flex-direction: column;
+    text-align: center;
+    max-height: fit-content;
+    padding: 5rem;
+    border-radius: 10px;
+    box-shadow:
+     0 2px 4px rgba(43, 43, 43, 0.08),
+     0 6px 12px rgba(43, 43, 43, 0.06);
+}
+
+.home h1 {
+    font-size: 3rem;
+}
+.home h3 {
+    font-size: 1rem;
+    margin-top: -1rem;
+    font-style: italic;
+}
+
+.home p {
+    padding-top: 1rem;
+}
+
 footer {
     background: var(--color-charcoal);
     grid-area: footer;
