@@ -23,4 +23,4 @@ const nav = (() => {
     })
 })()
 
-displayMenu()
+displayHome()
