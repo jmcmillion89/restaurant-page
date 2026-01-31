@@ -82,7 +82,12 @@ nav button:hover {
     background: var(--color-cream);
     color: var(--text-primary);
     grid-area: content;
+    display: flex;
+}
+
+.menu {
     display: grid;
+    flex: 1;
     grid-template-columns: repeat( auto-fit, minmax(300px, 65ch) );
     gap: .5rem;
     padding: .5rem;
@@ -138,12 +143,13 @@ nav button:hover {
 
 .home, .about {
     display: flex;
+    flex: 1;
     background-color: var(--color-soft-ash);
     flex-direction: column;
     text-align: center;
-    max-height: fit-content;
-    padding: 5rem;
+    justify-content: center;
     border-radius: 10px;
+    margin: .5rem;
     box-shadow:
      0 2px 4px rgba(43, 43, 43, 0.08),
      0 6px 12px rgba(43, 43, 43, 0.06);
