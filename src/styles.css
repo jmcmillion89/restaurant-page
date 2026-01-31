@@ -147,15 +147,16 @@ nav button:hover {
     background-color: var(--color-soft-ash);
     flex-direction: column;
     text-align: center;
-    justify-content: center;
+    align-items: center;
     border-radius: 10px;
     margin: .5rem;
+    padding-top: 2rem;
     box-shadow:
      0 2px 4px rgba(43, 43, 43, 0.08),
      0 6px 12px rgba(43, 43, 43, 0.06);
 }
 
-.home h1 {
+.home h1, .about h1 {
     font-size: 3rem;
 }
 .home h3 {
@@ -165,8 +166,9 @@ nav button:hover {
     font-style: italic;
 }
 
-.home p {
+.home p, .about p {
     padding-top: 1rem;
+    max-width: 65ch
 }
 
 footer {
